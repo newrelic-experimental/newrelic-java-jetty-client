@@ -1,4 +1,9 @@
 ## Version: [v1.0.0](https://github.com/newrelic-experimental/newrelic-java-jetty-client/releases/tag/v1.0.0) | Created: 2024-03-22
+### Features
+- Supports Jetty-Client 8.x version
+- Supports Jetty-Client 8.x version
+
+## Version: [v1.0.0](https://github.com/newrelic-experimental/newrelic-java-jetty-client/releases/tag/v1.0.0) | Created: 2024-03-22
 ## Installation
 
 To install:
