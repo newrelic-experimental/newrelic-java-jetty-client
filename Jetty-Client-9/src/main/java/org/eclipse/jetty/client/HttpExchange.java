@@ -1,8 +1,6 @@
 package org.eclipse.jetty.client;
 
 import java.net.URI;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.atomic.AtomicMarkableReference;
 import java.util.logging.Level;
 
@@ -24,9 +22,6 @@ public abstract class HttpExchange {
 
 	@NewField
 	public Segment segment = null;
-
-	@NewField
-	private Map<String, String> responseHeaders = new HashMap<String, String>();
 
 	public abstract Request getRequest();
 
