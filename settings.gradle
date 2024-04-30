@@ -1,2 +1,3 @@
 rootProject.name = 'java-instrumentation-template'
 include 'Jetty-Client-8'
+include 'Jetty-Client-9'
