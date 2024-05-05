@@ -1,10 +1,12 @@
 package org.eclipse.jetty.client;
 
 import java.net.URI;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicMarkableReference;
 import java.util.logging.Level;
 
 import org.eclipse.jetty.client.api.Request;
+import org.eclipse.jetty.client.api.Response;
 import org.eclipse.jetty.client.api.Result;
 
 import com.newrelic.api.agent.ExternalParameters;
@@ -24,6 +26,10 @@ public abstract class HttpExchange {
 	public Segment segment = null;
 
 	public abstract Request getRequest();
+
+	public HttpExchange(HttpConversation conversation, HttpDestination destination, Request request,
+			List<Response.ResponseListener> listeners) {
+	}
 
 	@Trace
 	private AtomicMarkableReference<Result> complete(int code, Throwable failure) {

@@ -2,6 +2,8 @@ package org.eclipse.jetty.client;
 
 import java.util.logging.Level;
 
+import org.eclipse.jetty.io.EndPoint;
+
 import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.Token;
 import com.newrelic.api.agent.Trace;
@@ -15,6 +17,10 @@ public abstract class HttpConnection {
 
 	@NewField
 	protected Token token = null;
+
+	public HttpConnection(HttpClient client, EndPoint endPoint, HttpDestination destination) {
+
+	}
 
 	@Trace(async = true)
 	public void send(HttpExchange exchange) {

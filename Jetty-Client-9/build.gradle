@@ -25,7 +25,7 @@ jar {
 }
 
 verifyInstrumentation {
-   passes 'org.eclipse.jetty:jetty-client:[9.0.0,10.0.0)'
+   passes 'org.eclipse.jetty:jetty-client:[9.0.0,9.1.0)'
         excludeRegex '.*M.*'
         excludeRegex '.*Beta.*'
         excludeRegex '.*alpha.*'
