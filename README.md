@@ -20,7 +20,7 @@
 
 # New Relic Java Instrumentation for Jetty Client
 
-Provides instrumentation for the Jetty Client .
+Provides instrumentation for the Jetty Client 8.x and 9.0.
 
 Jetty Client is a Java-based HTTP client library and component provided by the Eclipse Jetty project. It allows Java applications to make HTTP requests to web servers and interact with web services.
 
