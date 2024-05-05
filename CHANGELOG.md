@@ -1,7 +1,6 @@
 ## Version: [v1.1.0](https://github.com/newrelic-experimental/newrelic-java-jetty-client/releases/tag/v1.1.0) | Created: 2024-05-05
 ### Features
-- JettyClient 9 Instrumentation - WIP
-- JettyClient 9 Instrumentation - WIP
+
 - Added Support for Jetty Client 9.0
 
 ## Version: [v1.0.0](https://github.com/newrelic-experimental/newrelic-java-jetty-client/releases/tag/v1.0.0) | Created: 2024-03-22
